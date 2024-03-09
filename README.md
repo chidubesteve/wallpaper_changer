@@ -22,7 +22,7 @@
     ```
 
 2. The script will run indefinitely, changing your wallpaper every 30 minutes. To make it run when you startup your system:
-- rename the python file to wallpaper_changer.pyw . This means the file creates no window.
+- rename the python file to `wallpaper_changer.pyw` . This means the file creates no window.
 - create a shortcut of the file
 - Press Windows key + R and type ```shell:startup```
 - Drag and drop the shortcut file into the new explorer window
@@ -45,7 +45,7 @@ myHeader = {
 textData = requests.get('https://www.reddit.com/r/wallpaper/new.json', headers=myHeader).content
 ```
 
-- You need to adjust `%FILE_DESTIONATION_YOU_WANT_TO_STORE_THE_IMAGE%"` in the script to match your system's directory structure.
+- You need to adjust `%FILE_DESTIONATION_YOU_WANT_TO_STORE_THE_IMAGE%` in the script to match your system's directory structure.
 
 - For Windows users, the script assumes the use of backslashes (`\`) in file paths. Modify accordingly if using a different operating system.
 
